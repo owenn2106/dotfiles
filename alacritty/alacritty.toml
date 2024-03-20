@@ -13,8 +13,16 @@ dynamic_padding = false
 option_as_alt = "Both"
 
   [window.padding]
-  x = 14
+  x = 10
   y = 10
+
+  [window.dimensions]
+  columns = 180
+  lines = 50
+
+  [window.position]
+  x = 268
+  y = 268
 
 [font]
 size = 14
