@@ -12,3 +12,7 @@ keymap.set("n", "K", "5k", { desc = "Move 5 lines up" })
 
 -- For telescope
 keymap.set("n", "<C-p>", "<cmd>Telescope find_files<cr>", { desc = "Fuzzy find files in cwd" })
+keymap.set("n", "<C-d>", "<cmd>Telescope live_grep<cr>", { desc = "Live grep" })
+
+-- Override noice keymaps
+keymap.set("n", "<C-f>", "/", { desc = "Find text" })

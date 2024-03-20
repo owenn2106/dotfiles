@@ -12,8 +12,13 @@ return {
 
     telescope.setup({
       defaults = {
-        path_display = { "absolute" },
-        wrap_results = true,
+        -- path_display = { "absolute" },
+        -- wrap_results = true,
+        layout_strategy = "vertical",
+        layout_config = {
+          width = 0.9,
+          height = 0.9,
+        },
         mappings = {
           i = {
             ["<C-k>"] = actions.move_selection_previous, -- move to prev result

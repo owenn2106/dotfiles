@@ -89,4 +89,9 @@ return {
       opts.config.header = vim.split(logo, "\n")
     end,
   },
+
+  {
+    "akinsho/bufferline.nvim",
+    enabled = false,
+  },
 }
